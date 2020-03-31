@@ -1,0 +1,341 @@
+200331 03:38:20 info	cli.cmd.start starting engine... 
+200331 03:38:20 info	persistence.memorymap path for object is: _data/.chainstate.db, max size: 1000000, writable: true 
+200331 03:38:20 info	bc.chainstate connection opened with rovers btc,eth,lsk,neo,wav,bc with storage at _data/.chainstate.db 
+200331 03:38:20 info	bc.chainstate pruning state removing range + latest block heights 
+200331 03:38:20 info	p2p.node node p2p interface starting with expiration 52500 
+200331 03:38:21 info	engine.index latest block not found <- building new database 
+200331 03:38:23 info	server.index UI available at http://0.0.0.0:3000 
+200331 03:38:23 info	engine.index starting P2P node 
+200331 03:38:23 info	engine.index loading network key 
+200331 03:38:23 info	engine.index starting rovers 'btc,eth,lsk,neo,wav' 
+200331 03:38:23 warn	engine.index P2P node data not stored - creating machine network id 
+200331 03:38:23 info	rover.manager deploying rover 'btc' to 'mainnet' using '/bc/lib/rover/btc/rover.js' 
+200331 03:38:23 info	rover.manager rover started 'btc' 
+200331 03:38:23 info	engine.index assigned edge mutation key <- 2b83f34638f54a5e196be67cedb6c3512309b3a1 
+200331 03:38:23 info	engine.index assigned machine key <- 647f159fcb316cf98e217442e8f45fbcfdf57078c418d3df2d2a42ef7db9475c 
+200331 03:38:23 info	rover.manager deploying rover 'eth' to 'mainnet' using '/bc/lib/rover/eth/rover.js' 
+200331 03:38:23 info	rover.manager rover started 'eth' 
+200331 03:38:23 info	engine.index network creation epoch 1585625903 
+200331 03:38:23 info	p2p.discovery assigned edge resolution key <- 716ca5c568509b3652a21dd076e1bf842583267c 
+200331 03:38:23 info	p2p.discovery starting far reaching discovery module @ 716ca5c568509b3652a21dd076e1bf842583267c:16061 
+200331 03:38:23 info	p2p.node node p2p starting 2b83f34638f54a5e196be67cedb6c3512309b3a1 
+200331 03:38:23 info	rover.manager deploying rover 'lsk' to 'mainnet' using '/bc/lib/rover/lsk/rover.js' 
+200331 03:38:23 info	rover.manager rover started 'lsk' 
+200331 03:38:23 info	rover.manager deploying rover 'neo' to 'mainnet' using '/bc/lib/rover/neo/rover.js' 
+200331 03:38:23 info	rover.manager rover started 'neo' 
+200331 03:38:23 info	rover.manager deploying rover 'wav' to 'mainnet' using '/bc/lib/rover/wav/rover.js' 
+200331 03:38:23 info	rover.manager rover started 'wav' 
+200331 03:38:23 info	cli.cmd.start rovers successfully deployed to network [btc,eth,lsk,neo,wav] 
+200331 03:38:23 info	engine.index mining controller initialized 
+200331 03:38:23 info	cli.cmd.start local node startup complete -> Block Collider protocol initializing... 
+200331 03:38:24 info	p2p.node [] <- NRG BLOCK 135002 : 65ba518be7ceae6352d943c5204c2a1c60bf7d39625cce08bec96392e4870bf2 
+200331 03:38:25 info	p2p.node [] <- NRG BLOCK 134985 : 6a1825e9359da511cd7f6baf656d5991123cef546829d76556c4798c5f17cb68 
+200331 03:38:25 info	p2p.node [] <- NRG BLOCK 134964 : b29d2b05d2bb236486c180e84cec97bfc1c6d02957b5d6130e6558fe3cbe331d 
+200331 03:38:25 info	p2p.node [] <- NRG BLOCK 134829 : 384696618b204ce52331cf391a7cc4a8fbdad0cd1e1a709eb41f07823c782e02 
+200331 03:38:25 info	p2p.node [] <- NRG BLOCK 134771 : fec40a96b28ab68f6080fc1cdd3a493eab18a0eb3d5cd31ee9aae65fd175324b 
+200331 03:38:25 info	p2p.node [] <- NRG BLOCK 135002 : c99d18cca735f0d572fb485897fc22032767c5875a6ec3a65c7852bc9a8b8929 
+200331 03:38:26 info	bc.multiverse.61f528 1 <- lower bound height [current] 
+200331 03:38:26 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [current] 
+200331 03:38:26 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [purposed] 
+200331 03:38:26 info	bc.multiverse.61f528 purposed new block is better multiverse 134985 : 1 requesting range 2 -> 134985 purposed hash e3be7ffe : 29604110 latest hash a8212d5a : 1 
+200331 03:38:26 info	bc.multiverse.61f528 difference is greater than multiverse threshold increasing lower bound from 2 (2/1) to 2 
+200331 03:38:26 info	bc.multiverse.61f528 1 <- lower bound height [current] 
+200331 03:38:26 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [current] 
+200331 03:38:26 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [purposed] 
+200331 03:38:26 info	bc.multiverse.61f528 purposed new block is better multiverse 134964 : 3 requesting range 2 -> 134964 purposed hash 3e9bf0bb : 29604058 latest hash a8212d5a : 1 
+200331 03:38:26 info	bc.multiverse.61f528 difference is greater than multiverse threshold increasing lower bound from 2 (2/1) to 2 
+200331 03:38:27 info	bc.multiverse.61f528 opened multiverse change request from 2 to 134985 
+200331 03:38:27 info	mining.thread rovers initialized: btc,eth,lsk,neo,wav 
+200331 03:38:27 info	mining.thread pool controller ready 72 
+200331 03:38:27 info	mining.thread no Emblems (EMB) associated <- 0xdfc345613fa1248650ccfe0958c6b530bc9cac9a 
+200331 03:38:28 info	bc.multiverse.61f528 1 <- lower bound height [current] 
+200331 03:38:28 info	rover.eth.network starting eth node at port: 30304 
+200331 03:38:28 info	rover.neo.controller initialized 
+200331 03:38:28 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [current] 
+200331 03:38:28 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [purposed] 
+200331 03:38:28 info	bc.multiverse.61f528 purposed new block is better multiverse 134771 : 1 requesting range 2 -> 134771 purposed hash 04eaaaa3 : 29603671 latest hash a8212d5a : 1 
+200331 03:38:28 info	bc.multiverse.61f528 opened multiverse change request from 2 to 134964 
+200331 03:38:29 info	p2p.node joined waypoint table: 716ca5c568509b3652a21dd076e1bf842583267c 
+200331 03:38:29 info	p2p.node far reaching discovery module successfully connected 
+200331 03:38:29 info	p2p.node opened active waypoint registry 
+200331 03:38:29 info	bc.multiverse.61f528 difference is greater than multiverse threshold increasing lower bound from 2 (2/1) to 2 
+200331 03:38:29 info	rover.eth.network rover candidate graph expansion <- 0 edges 
+200331 03:38:29 info	bc.multiverse.61f528 1 <- lower bound height [current] 
+200331 03:38:29 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [current] 
+200331 03:38:29 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [purposed] 
+200331 03:38:29 info	bc.multiverse.61f528 purposed new block is better multiverse 135002 : 1 requesting range 2 -> 135002 purposed hash 8df179cb : 29604140 latest hash a8212d5a : 1 
+200331 03:38:29 info	bc.multiverse.61f528 difference is greater than multiverse threshold increasing lower bound from 2 (2/1) to 2 
+200331 03:38:29 info	bc.multiverse.61f528 1 <- lower bound height [current] 
+200331 03:38:29 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [current] 
+200331 03:38:29 info	bc.multiverse.61f528 a8212d5a65f579c2018b19172be34e4422a93c8437f8e7c19ddc8cad15353862 <- lower bound hash [purposed] 
+200331 03:38:29 info	bc.multiverse.61f528 purposed new block is better multiverse 134829 : 80 requesting range 2 -> 134829 purposed hash f1bb4007 : 29603975 latest hash a8212d5a : 1 
+200331 03:38:29 info	bc.multiverse.61f528 difference is greater than multiverse threshold increasing lower bound from 2 (2/1) to 2 
+200331 03:38:29 info	p2p.node [] <- NRG BLOCK 135001 : f9ba074df1718d33ce4134c68c56c7979ffe9e567423c67b2159978ad4e5fc7f 
+200331 03:38:30 info	p2p.node COLLIDER 3:81 [] 842bca91:ccf08d29 NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:30 info	p2p.node COLLIDER 3:86 [] 105e933a:6256bc65 NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 4:100 [] b76e1ad0:842bca91 NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 4:101 [] 55b88bba:105e933a NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 5:104 [] e7bcf02f:b76e1ad0 NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 5:106 [] 32f806aa:55b88bba NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 6:107 [] fa31e67e:e7bcf02f NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 6:108 [] 2dc187bb:32f806aa NRG Multichain 0.00% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 7:112 [] 85e44309:fa31e67e NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 7:113 [] deb54aee:2dc187bb NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 8:117 [] 76713440:85e44309 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 8:123 [] 1d4bcb0f:deb54aee NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 9:131 [] ff924656:76713440 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 9:133 [] 9b71a872:1d4bcb0f NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 10:148 [] babcd56e:ff924656 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 10:149 [] 826dd3cd:9b71a872 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 11:151 [] 4410902b:babcd56e NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 11:154 [] 4b8cabf0:826dd3cd NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 12:158 [] b3905770:4410902b NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 12:162 [] 94bdfcee:4b8cabf0 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 13:166 [] 81f69868:b3905770 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 13:175 [] 8cb5af1a:94bdfcee NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 14:180 [] 48f6b5bf:81f69868 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 14:182 [] e9d9a746:8cb5af1a NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 15:183 [] f0e25c07:48f6b5bf NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 15:185 [] 8be727fa:e9d9a746 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 16:189 [] 6a7b0455:f0e25c07 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 16:190 [] 791554e0:8be727fa NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 17:193 [] 066ab01f:6a7b0455 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:31 info	p2p.node COLLIDER 17:194 [] f3d09764:791554e0 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:33 info	rover.neo.controller mesh count pool: 10/57, bh: 5313299 
+200331 03:38:34 info	p2p.node COLLIDER 15 195 [] f0e25c07:48f6b5bf NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 15 197 [] 8be727fa:e9d9a746 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 16 201 [] 6a7b0455:f0e25c07 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 16 202 [] 791554e0:8be727fa NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 17 205 [] 066ab01f:6a7b0455 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 17 206 [] f3d09764:791554e0 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 18:210 [] 9081d95d:066ab01f NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 18:212 [] c696c3a1:f3d09764 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 19:216 [] 5d1b4d52:9081d95d NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 19:217 [] 9c7d02c7:c696c3a1 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 20:228 [] dcb1d543:5d1b4d52 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 20:229 [] 104d10ec:9c7d02c7 NRG Multichain 0.01% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 21:230 [] 6a1a1128:dcb1d543 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 21:231 [] 726658da:104d10ec NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 22:232 [] c451a719:6a1a1128 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	rover.lsk.controller rover transporting block : "11893675" : 16791423901122027821 
+200331 03:38:34 info	bc.blockchainmanager blockchain lsk latest block height not available for review 
+200331 03:38:34 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.00%, neo:0.00%, wav:0.00%   
+200331 03:38:34 info	p2p.node COLLIDER 22:236 [] b9c24c74:726658da NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 23:239 [] aef44350:c451a719 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 23:672 [] ea3f723a:c451a719 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 23:677 [] c35a1fff:b9c24c74 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 24:680 [] c482b4b1:ea3f723a NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 24:681 [] cacf3d66:aef44350 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 24:688 [] e0212e4c:c35a1fff NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 25:689 [] 30116e44:c482b4b1 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 25:690 [] 772fb381:cacf3d66 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 25:691 [] feba1de1:e0212e4c NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:34 info	p2p.node COLLIDER 26:693 [] 26e3ce6f:30116e44 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 26:1013 [] 5a0f1a2e:772fb381 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 26:1020 [] 282ba0eb:772fb381 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 26:1022 [] 9ed930e0:feba1de1 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 27:1024 [] fc0b2545:26e3ce6f NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 27:1030 [] 02154e33:26e3ce6f NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 27:1040 [] e5241ea7:5a0f1a2e NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 27:1050 [] ef1e70ea:282ba0eb NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 27:1054 [] 4c2a9a10:9ed930e0 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 28:1055 [] aea591f4:02154e33 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 28:1058 [] fe584096:ef1e70ea NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 28:1063 [] 43175d4a:e5241ea7 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 28:1064 [] 5ed466f9:4c2a9a10 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 29:1073 [] 7bd7603a:fe584096 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 29:1076 [] edc8b001:43175d4a NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 29:1077 [] ec22f5b4:5ed466f9 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 30:1080 [] d8d688f1:7bd7603a NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:35 info	p2p.node COLLIDER 30:1082 [] c8317128:ec22f5b4 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node [] <- NRG BLOCK 134353 : 7127b7c44b9223b6e910655ed535bdab6ef7b2518f15fc0ab1bdb7ee5e4b28ef 
+200331 03:38:36 info	p2p.node [] <- NRG BLOCK 135002 : b94a3c7160bbf12caa6e33300d562e5a66d618765c6967048a295fa1a9f4e110 
+200331 03:38:36 info	p2p.node COLLIDER 28 1083 [] aea591f4:02154e33 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 28 1086 [] fe584096:ef1e70ea NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 28 1091 [] 43175d4a:e5241ea7 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 28 1092 [] 5ed466f9:4c2a9a10 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 29 1101 [] 7bd7603a:fe584096 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 29 1104 [] edc8b001:43175d4a NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 29 1105 [] ec22f5b4:5ed466f9 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 30 1108 [] d8d688f1:7bd7603a NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 30 1110 [] c8317128:ec22f5b4 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 31:1111 [] ef9888f8:d8d688f1 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 31:1112 [] cef8251e:c8317128 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 32:1125 [] 5dd8e1e2:ef9888f8 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 32:1129 [] 024e915f:cef8251e NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 33:1130 [] 34692395:5dd8e1e2 NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 33:1136 [] a6d39b95:024e915f NRG Multichain 0.02% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 34:1139 [] b1e9cde1:34692395 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 34:1140 [] 20d590df:a6d39b95 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 35:1144 [] 45e5aca3:b1e9cde1 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 35:1145 [] ccd0a636:20d590df NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 36:1147 [] 998b71ff:45e5aca3 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 36:1149 [] 8a3b7eeb:ccd0a636 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 37:1153 [] 594da827:998b71ff NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 37:1154 [] 00cac33f:8a3b7eeb NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 38:1159 [] 32db965a:594da827 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 38:1162 [] a5537278:00cac33f NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 39:1164 [] 5157d74d:32db965a NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 39:1166 [] b21d2a18:a5537278 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:36 info	p2p.node COLLIDER 40:1174 [] 8ad42261:5157d74d NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 40:1175 [] 12e68bb8:b21d2a18 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 41:1184 [] aaf87c88:8ad42261 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 41:1185 [] ceec5865:12e68bb8 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 42:1186 [] ba96f05c:aaf87c88 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 42:1188 [] 65477ce8:ceec5865 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 43:1194 [] bbfd525b:ba96f05c NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:37 info	p2p.node COLLIDER 43:1195 [] 1d9620ed:65477ce8 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 41 1204 [] aaf87c88:8ad42261 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 41 1205 [] ceec5865:12e68bb8 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 42 1206 [] ba96f05c:aaf87c88 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 42 1208 [] 65477ce8:ceec5865 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 43 1214 [] bbfd525b:ba96f05c NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 43 1215 [] 1d9620ed:65477ce8 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 44:1224 [] 820cd6fe:bbfd525b NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 44:1235 [] 70619654:1d9620ed NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 45:1239 [] 3b09cecc:820cd6fe NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 45:1240 [] 1a31629f:70619654 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 46:1248 [] 1b9345d0:3b09cecc NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 46:1250 [] 546b7db4:1a31629f NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 47:1253 [] d24d7e46:1b9345d0 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 47:1256 [] 0beab753:546b7db4 NRG Multichain 0.03% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 48:1258 [] 138e5f77:d24d7e46 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 48:1259 [] 63db4b6a:0beab753 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 49:1260 [] de0819e6:138e5f77 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 49:1263 [] cf91532c:63db4b6a NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 50:1267 [] cdf84a65:de0819e6 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 50:1270 [] ef7f04a1:cf91532c NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 51:1274 [] c85e445c:cdf84a65 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 51:1277 [] 3e8a9070:cdf84a65 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 51:1278 [] 74610567:ef7f04a1 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 52:1279 [] 573163db:3e8a9070 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 52:1281 [] 0d9e9b70:c85e445c NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 52:1283 [] bd1b8d58:74610567 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 53:1286 [] 4e843aa6:0d9e9b70 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 53:1287 [] 35172cfb:bd1b8d58 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 54:1294 [] 621d95af:4e843aa6 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 54:1296 [] fbb53991:35172cfb NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 55:1300 [] 63aaa7c0:621d95af NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 55:1305 [] 7e6f32de:fbb53991 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 56:1306 [] 27b0d4ad:63aaa7c0 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	p2p.node COLLIDER 56:1308 [] 70ce9c3f:7e6f32de NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:38 info	rover.neo.controller mesh count pool: 10/57, bh: 5313299 
+200331 03:38:39 info	p2p.node COLLIDER 54 1315 [] 621d95af:4e843aa6 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 54 1317 [] fbb53991:35172cfb NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 55 1321 [] 63aaa7c0:621d95af NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 55 1326 [] 7e6f32de:fbb53991 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 56 1327 [] 27b0d4ad:63aaa7c0 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 56 1329 [] 70ce9c3f:7e6f32de NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 57:1331 [] 3eb2d743:27b0d4ad NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 57:1335 [] 8830dc23:27b0d4ad NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 57:1341 [] e6873cbf:70ce9c3f NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 58:1345 [] da7eea1a:8830dc23 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 58:1348 [] 76db1759:e6873cbf NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 59:1349 [] 23bc3ee3:da7eea1a NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 59:1351 [] 54bee489:da7eea1a NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 59:1356 [] 9ec0a56c:76db1759 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 60:1359 [] ec462b79:23bc3ee3 NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 60:1361 [] eedc6b79:9ec0a56c NRG Multichain 0.04% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 61:1367 [] e6e711a8:ec462b79 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 61:1371 [] ef0f7e16:eedc6b79 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 62:1372 [] 04e6b069:e6e711a8 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 62:1374 [] eb0d5ac9:ef0f7e16 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 62:1376 [] eac51c92:ef0f7e16 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 63:1392 [] 925693b0:04e6b069 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 63:1398 [] 315a2073:04e6b069 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 63:1404 [] 5b90b70c:eb0d5ac9 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 64:1405 [] f8511c9f:925693b0 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 64:1406 [] 4c63ef83:315a2073 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 64:1407 [] 5f6e2d75:5b90b70c NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 65:1408 [] a260b684:f8511c9f NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 65:1410 [] 163787d5:4c63ef83 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 65:1412 [] 6f875ba8:5f6e2d75 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 66:1413 [] 5d305f9c:a260b684 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 66:1414 [] e592787d:6f875ba8 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 67:1417 [] fae1a2f5:5d305f9c NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 67:1425 [] 8efbd918:5d305f9c NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 67:1429 [] 455d41d5:e592787d NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 68:1431 [] 3f1021ee:fae1a2f5 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 68:1432 [] ddb4bbd6:8efbd918 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 68:1434 [] 3f527078:455d41d5 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	rover.lsk.controller startResync() lastBlockHeight: 11893675 
+200331 03:38:39 info	rover.lsk.controller Requesting blocks 11893317 - 11893675 for initial resync (90 tasks) 
+200331 03:38:39 info	p2p.node COLLIDER 69:1435 [] 1c9e8dc9:3f1021ee NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:39 info	p2p.node COLLIDER 69:1441 [] c4ab2e4c:3f527078 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 67 1444 [] fae1a2f5:5d305f9c NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 67 1452 [] 8efbd918:5d305f9c NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 67 1456 [] 455d41d5:e592787d NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 68 1458 [] 3f1021ee:fae1a2f5 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 68 1459 [] ddb4bbd6:8efbd918 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 68 1461 [] 3f527078:455d41d5 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 69 1462 [] 1c9e8dc9:3f1021ee NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 69 1468 [] c4ab2e4c:3f527078 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 70:1469 [] f23f4787:1c9e8dc9 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 70:1470 [] 05f22fc6:c4ab2e4c NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 71:1473 [] e54e5b4d:f23f4787 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 71:1475 [] 5bf95889:05f22fc6 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 72:1482 [] c6e148fc:e54e5b4d NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 72:1484 [] 3c02f667:5bf95889 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 73:1487 [] 5e567ee5:c6e148fc NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 73:1489 [] 33b2e4d6:3c02f667 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 74:1490 [] d9c4f5e5:5e567ee5 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 74:1491 [] b68b9251:33b2e4d6 NRG Multichain 0.05% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 75:1499 [] bfabb629:d9c4f5e5 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 75:1500 [] 128e2f9a:b68b9251 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 76:1502 [] ffec6c51:bfabb629 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 76:1506 [] cc989d73:128e2f9a NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 77:1515 [] 69fe8a19:ffec6c51 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 77:1516 [] 15662ec1:cc989d73 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 78:1517 [] ede6b2cb:69fe8a19 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 78:1518 [] b23e3ea1:15662ec1 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 79:1519 [] 62dd0493:ede6b2cb NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node [] <- NRG BLOCK 135003 : 22ff152dc4bee09341bff6ed8fca4c970115cdf8a8c3ed131ac9112757701686 
+200331 03:38:40 info	p2p.node COLLIDER 79:1520 [] bb168dba:b23e3ea1 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 80:1525 [] 8efc9f9b:62dd0493 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 80:1526 [] 3256e1f3:bb168dba NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 81:1529 [] 251ef225:8efc9f9b NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 81:1530 [] 02f4efb6:3256e1f3 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 82:1533 [] a2b828d3:251ef225 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	p2p.node COLLIDER 82:1534 [] 4d463a19:02f4efb6 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:40 info	rover.neo.controller requesting block heights from: 5313060 to: 5313300 
+200331 03:38:41 info	bc.blockchainmanager blockchain neo latest block height not available for review 
+200331 03:38:41 info	bc.blockchainmanager blockchain neo latest block height not available for review 
+200331 03:38:41 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.28%, neo:0.00%, wav:0.00%   
+200331 03:38:41 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.28%, neo:0.00%, wav:0.00%   
+200331 03:38:41 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.28%, neo:0.83%, wav:0.00%   
+200331 03:38:41 info	p2p.node COLLIDER 80 1539 [] 8efc9f9b:62dd0493 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 80 1540 [] 3256e1f3:bb168dba NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 81 1543 [] 251ef225:8efc9f9b NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 81 1544 [] 02f4efb6:3256e1f3 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 82 1547 [] a2b828d3:251ef225 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 82 1548 [] 4d463a19:02f4efb6 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 83:1555 [] 5d192f9c:a2b828d3 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 83:1556 [] 136ed18e:4d463a19 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 84:1557 [] abc7d030:5d192f9c NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 84:1558 [] 70d26c49:136ed18e NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 85:1560 [] 05d96f0d:abc7d030 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 85:1561 [] 645fdc90:70d26c49 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 86:1566 [] e5bf29cd:05d96f0d NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 86:1568 [] 65e30ca1:645fdc90 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 87:1577 [] 2618305b:e5bf29cd NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 87:1578 [] ab89e822:65e30ca1 NRG Multichain 0.06% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 88:1581 [] 1bd02a85:2618305b NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 88:1583 [] d8ceb49a:ab89e822 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 89:1586 [] 9a128c41:1bd02a85 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 89:1587 [] 11469a76:d8ceb49a NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 90:1588 [] 8354b2d6:9a128c41 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.28%, neo:1.25%, wav:0.00%   
+200331 03:38:41 info	p2p.node [] <- NRG BLOCK 135003 : ea4bbd0a049e68d788171088d31d745ee6abd918476ec20ec1c57de8ad85adc7 
+200331 03:38:41 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.28%, neo:1.67%, wav:0.00%   
+200331 03:38:41 info	p2p.node COLLIDER 90:1591 [] ed132449:11469a76 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 91:1595 [] 7bcb35fc:8354b2d6 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 91:1598 [] 322c12ca:ed132449 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 92:1603 [] 5a4446d7:7bcb35fc NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 92:1604 [] 909f638b:322c12ca NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:41 info	p2p.node COLLIDER 93:1656 [] fc3552db:5a4446d7 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:42 info	p2p.node COLLIDER 93:1657 [] eb3acd69:909f638b NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:42 info	p2p.node COLLIDER 94:1658 [] 9446b7c5:fc3552db NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:42 info	p2p.node COLLIDER 94:1659 [] ccf3c228:eb3acd69 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:42 info	p2p.node COLLIDER 95:1660 [] c4fe47a2:9446b7c5 NRG Multichain 0.07% <- Miner EMB Boost: +0% 
+200331 03:38:42 info	mining.officer COLLIDER 134964:[=         ] btc:0.00%, eth:0.00%, lsk:0.28%, neo:2.08%, wav:0.00%   
+200331 03:38:42 info	p2p.node COLLIDER 95:1662 [] 74a339c1:ccf3c228 NRG Multichain 0.07% <- Miner EMB Boost: +0% 

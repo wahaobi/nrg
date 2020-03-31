@@ -1,0 +1,32 @@
+{
+  "name": "gossipmonger-tcp-transport",
+  "version": "0.1.6",
+  "description": "TCP Transport for Gossipmonger",
+  "scripts": {
+    "test": "node scripts/test.js"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "nodeunit": "0.8.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:tristanls/gossipmonger-tcp-transport.git"
+  },
+  "keywords": [
+    "gossip",
+    "scuttlebutt",
+    "peer-to-peer",
+    "replication",
+    "real-time",
+    "storage",
+    "tcp",
+    "transport"
+  ],
+  "contributors": [
+    "Tristan Slominski <tristan.slominski@gmail.com>",
+    "Kenan Sulayman <kenan@sly.mn>",
+    "Yusuke Shinozaki <vin.bleu@gmail.com>"
+  ],
+  "license": "MIT"
+}

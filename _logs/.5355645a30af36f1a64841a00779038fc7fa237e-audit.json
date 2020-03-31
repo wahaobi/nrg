@@ -1,0 +1,14 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 29
+    },
+    "auditLog": "/bc/_logs/.5355645a30af36f1a64841a00779038fc7fa237e-audit.json",
+    "files": [
+        {
+            "date": 1585625899168,
+            "name": "/bc/_logs/bcnode-2020-03-31-03.log",
+            "hash": "ee1e57f699d54568b51d1b0597865b8a"
+        }
+    ]
+}
