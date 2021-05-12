@@ -157,7 +157,7 @@
     "gossipmonger-peer": "^0.1.0",
     "gossipmonger-tcp-transport": "^0.1.6",
     "graphviz": "0.0.9",
-    "grpc": "1.24.2",
+    "grpc": "1.24.9",
     "heap": "^0.2.6",
     "history": "^4.7.2",
     "html-react-parser": "^0.4.6",
