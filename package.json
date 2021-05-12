@@ -176,7 +176,7 @@
     "lisk-js": "^0.5.2",
     "lowdb": "^1.0.0",
     "lru-cache": "5.1.1",
-    "mathjs": "^4.1.1",
+    "mathjs": "^7.5.1",
     "maxmind": "^2.7.0",
     "microtime": "^2.1.7",
     "mkdirp": "^0.5.1",
