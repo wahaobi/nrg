@@ -181,7 +181,7 @@
     "microtime": "^2.1.7",
     "mkdirp": "^0.5.1",
     "mmap-object": "1.4.1",
-    "moment-timezone": "0.5.23",
+    "moment-timezone": "0.5.35",
     "ms": "^2.1.1",
     "n64": "^0.1.2",
     "neon-cli": "^0.1.22",
